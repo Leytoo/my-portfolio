@@ -20,6 +20,10 @@ export const NavList: NavType[] = [
     },
     {
         name:"Contacts",
-        path:"/Contacts"
+        path:"/contacts"
+    },
+    {
+        name:"Blogs",
+        path:"/blog"
     }
 ]

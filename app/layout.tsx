@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google"
 
 import "./globals.css"
-//import { ThemeProvider } from "@/components/theme-provider"
+import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 import { Header } from "@/components/common/Header"
 import { Footer } from "@/components/common/Footer"
@@ -29,14 +29,13 @@ export default function RootLayout({
       )}
     >
       <body>
-        <div className="flex h-full min-h-full w-full flex-col">
-          <Header />
-          <main className="flex-1">
-            {/* <ThemeProvider>{children}</ThemeProvider> */}
-            {children}
-          </main>
-          <Footer />
-        </div>
+        <ThemeProvider>
+          <div className="flex h-full min-h-full w-full flex-col">
+            <Header />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   )
