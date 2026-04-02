@@ -4,8 +4,8 @@ import Link from "next/link"
 export function Banner() {
   return (
     <Section>
-      <div className="container mx-auto flex gap-5">
-        <div className="ml-40 flex flex-1 flex-col justify-center gap-5">
+      <div className="container mx-auto flex flex-col-reverse items-center justify-center gap-5 lg:flex-col-reverse lg:flex-row">
+        <div className="flex flex-1 flex-col justify-center gap-5 lg:ml-40">
           <p className="flex items-center gap-2 text-blue-600">
             <span className="flex animate-pulse items-center justify-center text-center text-2xl font-bold text-green-500">
               ·
@@ -22,12 +22,12 @@ export function Banner() {
           </p>
           <Link
             href="/contact"
-            className="w-fit text-lg text-blue-600 hover:underline"
+            className="mb-4 w-fit text-lg text-blue-600 hover:underline"
           >
             Message me
           </Link>
         </div>
-        <div className="flex flex-1 items-center justify-center">
+        <div className="mt-5 flex flex-1 items-center justify-center lg:mt-0">
           <Image
             src="/homepage"
             alt="profile"

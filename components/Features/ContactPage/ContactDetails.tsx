@@ -52,7 +52,7 @@ export function ContactDetails() {
         <div className="max-w-md space-y-8">
           {/* Header */}
           <div>
-            <p className="mb-2 text-sm font-semibold tracking-widest text-slate-600 uppercase">
+            <p className="mt-7 mb-2 text-sm font-semibold tracking-widest text-slate-600 uppercase">
               Contact Details
             </p>
             <h2 className="text-5xl font-bold text-slate-900">

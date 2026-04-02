@@ -36,7 +36,7 @@ export function AboutMe() {
         <div className="space-y-8">
           {/* Heading */}
           <div>
-            <h1 className="mb-4 bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-5xl font-bold text-transparent lg:text-6xl">
+            <h1 className="mb-4 bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-[30px] font-bold text-transparent lg:text-5xl">
               Hey, I{"'"}m Leyto
               <span className="ml-3">👋</span>
             </h1>
