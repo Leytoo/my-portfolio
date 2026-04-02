@@ -29,8 +29,9 @@ export function Banner() {
         </div>
         <div className="mt-5 flex flex-1 items-center justify-center lg:mt-0">
           <Image
-            src="/homepage"
+            src="/homepage.png"
             alt="profile"
+            loading="eager"
             width={400}
             height={400}
             className="rounded-lg transition-all hover:rotate-2"
