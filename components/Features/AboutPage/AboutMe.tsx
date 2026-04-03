@@ -45,10 +45,10 @@ export function AboutMe() {
 
           {/* Description */}
           <p className="text-lg leading-relaxed font-light text-slate-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            exercitationem quaerat eum, sed voluptate repellendus eos
-            repudiandae rerum modi distinctio id error nulla impedit, fugit
-            dicta numquam ad, labore libero.
+            I am a 3rd year college student currently taking up Bachelor of
+            Science in Information Technology. As an IT student, I am focused on
+            developing my knowledge and skills in technology, especially in
+            areas such as systems, programming, and information management.
           </p>
 
           {/* Contact Information */}
@@ -58,21 +58,21 @@ export function AboutMe() {
             </p>
             <div className="space-y-3">
               <a
-                href="tel:08124356789"
+                href="tel:09696457704"
                 className="group flex items-center gap-4 rounded-lg border border-slate-200/50 bg-white/70 p-4 backdrop-blur-md transition-all duration-300 hover:border-red-500 hover:bg-white hover:shadow-lg"
               >
                 <span className="text-2xl">📱</span>
                 <span className="font-medium text-slate-700 transition-colors group-hover:text-red-500">
-                  08124356789
+                  09696457704
                 </span>
               </a>
               <a
-                href="mailto:Pasmobiz19@gmail.com"
+                href="mailto:Panimdim217@gmail.com"
                 className="group flex items-center gap-4 rounded-lg border border-slate-200/50 bg-white/70 p-4 backdrop-blur-md transition-all duration-300 hover:border-red-500 hover:bg-white hover:shadow-lg"
               >
                 <span className="text-2xl">✉️</span>
                 <span className="font-medium text-slate-700 transition-colors group-hover:text-red-500">
-                  Pasmobiz19@gmail.com
+                  Panimdim217@gmail.com
                 </span>
               </a>
             </div>
