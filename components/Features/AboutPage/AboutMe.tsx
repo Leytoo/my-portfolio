@@ -92,7 +92,7 @@ export function AboutMe() {
         <div className="flex justify-center lg:justify-end">
           <div className="hover:shadow-3xl relative h-80 w-80 overflow-hidden rounded-2xl border-8 border-white/80 bg-white shadow-2xl backdrop-blur-sm transition-shadow duration-300">
             <Image
-              src="/homepage"
+              src="/homepage.png"
               alt="About Me Picture"
               width={300}
               height={300}
